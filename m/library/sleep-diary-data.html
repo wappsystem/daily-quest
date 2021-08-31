@@ -1,0 +1,18 @@
+
+<section>
+    VmInclude:__CURRENT_PATH__/grid.v1h.html
+</section>
+<script>
+    function F__ID(){
+        //-------------------------------------
+        VmInclude:__COMPONENT__/g/grid.01.js
+        VmInclude:__CURRENT_PATH__/shared-data.js
+        //-------------------------------------
+        var fields="days_since_baseline,date,bed_time,sleep_time,fall_asleep,awakenings,awakenings_duration,waking_up,out_of_bed,sleep_quality,alcohol,last_alcohol,caffeine,last_caffeine,medication,comments";
+        m.fields="_Form,_Lock,_Status,_Notes,_Participant_ID,Screening Number|Participant,"+fields+",Submit_date,Submitted_by,_Delete";
+        //-------------------------------------
+    }
+</script>
+<style>
+    VmInclude:__COMPONENT__/g/grid.01.css
+</style>
